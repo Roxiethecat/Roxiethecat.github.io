@@ -1,0 +1,45 @@
+#banner {
+height:2500px;
+width:100%;
+background-color:grey;
+}
+.wrap-text {
+color:white;
+font-size: 2.1em;
+}
+
+.white{Color:white;}
+
+#one {
+height: 150px;
+width: 150px;
+background-color:red;
+display: inline-block;
+position: absolute;
+z-index: 1;
+}
+
+#two {
+height: 150px;
+width: 150px;
+background-color: green;
+display:inline-block;
+z-index: 2;
+position: fixed;
+left: 25%;
+}
+
+#three {
+height: 150px;
+width: 150px;
+background-color: blue;
+display: inline-block;
+
+position: relative;
+top: 750px;
+z-index: 3;
+}
+
+#background-h {
+height: 2048px;
+}

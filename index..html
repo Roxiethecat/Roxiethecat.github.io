@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ 
+ <head>
+  <body id="banner">
+  
+    <nav>
+      <ul id="navmenu">
+        <li class="navitem">home </li>
+        <li class="navitem">info </li><a href="file:///home/chronos/u-4db9568ba84c2365ca0413d01adce769d47f2893/MyFiles/Downloads/Coding/reference.html/infopage.html"> click me</a>
+      </ul>
+    </nav>
+    
+    
+   <link type="text/css" rel="stylesheet" href="main.css"/>
+    <title>dayz survival guide</title>
+  <script>function answer(){
+var radio = document.getElementsByName("trivia");
+var selection = false;
+var message = "";
+for( var i = 0; i < radio.length; i++) {
+if(radio[i].value == "yes" && radio[i].checked == true) {
+selection = true;
+} //end if statement
+} //end for loop
+if(selection == true) {
+message = message + "<b><p style='color:#54f542'>correct!</p></b>";
+} else {
+message = message + "<b><p style='color:#ff0000'>incorrect.</p></b>";
+}
+document.getElementById("response").innerHTML = message;
+} //end function answer</script>
+    <h2>Starting off.</h2>
+    <p class="white">I recommend playing on offical servers for a more normal gameplay, Because comunity servers have weekend raids and most of the time they are pay to win. Once you find a server thats in your region favorite the server, so you dont lose it because there are a lot of servers.</p>
+   <form>
+<div id="response"> </div>
+<input type="radio" name="trivia" value="no"> canned food <br>
+
+<input type="radio" name="trivia" value="no">  distilled water <br>
+<input type="radio" name="trivia" value="no"> handgun or sniper rifle <br>
+<input type="radio" name="trivia" value="yes"> all of the above <br>
+<input onclick="answer()" type="button" value="Click Here">
+</form>
+<br>
+<iframe width="650" height="315" src="https://www.youtube.com/embed/xILXpi98StM?si=9tI2cLxrJQcUiu_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+  </body>
+</html>
